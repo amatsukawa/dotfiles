@@ -1,6 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
 name = Akihiro Matsukawa
+email = aki@mtskw.com
 
 [alias]
 s = status
