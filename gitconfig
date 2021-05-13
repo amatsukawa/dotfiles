@@ -1,0 +1,29 @@
+# This is Git's per-user configuration file.
+[user]
+name = Akihiro Matsukawa
+
+[alias]
+s = status
+a = add
+c = commit
+b = branch
+l = log
+unstage = reset HEAD --
+undo = reset HEAD~
+
+[color "branch"]
+current = yellow reverse
+local = yellow
+remote = green
+
+[color "status"]
+added = yellow
+changed = green
+untracked = cyan
+
+[status]
+	hints = false
+[core]
+	excludesFile = ~/.gitignore
+[advice]
+	statusHints = off
